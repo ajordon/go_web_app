@@ -1,5 +1,6 @@
-# go_web_app
-go_web_app
+# Go Programming Language
+![alt text](http://www.unixstickers.com/image/cache/data/stickers/golang/golang.sh-600x600.png "Golang Mascot")
+
 
 ## Intro to Golang
 - “Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.”
