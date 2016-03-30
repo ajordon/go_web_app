@@ -6,7 +6,7 @@
 - “Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.”
 - Functional language
 - Speed
-- Really good for stand alone command line scripts (No interpreter needed unlike PHP)
+- Really good for stand alone command line scripts
 - Very simular to C
 
 
@@ -89,13 +89,9 @@ m.Group("/books", func() {
 - [Beego](http://beego.me/)
 - [Macaron](https://go-macaron.com/)
 - [Web.io](http://webgo.io/)
-- 
----
-
-### Back end APIs
 - [Gorilla](http://www.gorillatoolkit.org/)
 
-
 ---
-[Go Programming Tutorial](http://www.newthinktank.com/2015/02/go-programming-tutorial/)
-[Golang-book.com](https://www.golang-book.com)
+---
+- [Go Programming Tutorial](http://www.newthinktank.com/2015/02/go-programming-tutorial/)
+- [Golang-book.com](https://www.golang-book.com)
