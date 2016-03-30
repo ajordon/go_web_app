@@ -8,6 +8,7 @@
 - Speed
 - Really good for stand alone command line scripts (No interpreter needed unlike PHP)
 - Very simular to C
+
 ---
 
 ## Differences
@@ -51,10 +52,11 @@ m.Group("/books", func() {
 ---
 
 ### Front end APIs
-- [Beego](http://beego.me/ target="_blank")
-- [Macaron](https://go-macaron.com/ target="_blank")
-- [Web.io](http://webgo.io/ target="_blank")
+- [Beego](http://beego.me/){target="_blank"}
+- [Macaron](https://go-macaron.com/){target="_blank"}
+- [Web.io](http://webgo.io/){target="_blank"}
+- 
 ---
 
 ### Back end APIs
-- [Gorilla](http://www.gorillatoolkit.org/ target="_blank")
+- [Gorilla](http://www.gorillatoolkit.org/){target="_blank"}
