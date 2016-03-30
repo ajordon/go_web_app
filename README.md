@@ -9,10 +9,44 @@
 - Really good for stand alone command line scripts (No interpreter needed unlike PHP)
 - Very simular to C
 
+
+```js
+
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello World")
+}
+```
+
 ---
 
 ## Differences
 - Not Object Oriented
+- More scalable
+- Concurrency: Progress on more than one task at the same time. (Goroutines)
+
+```js
+
+package main
+
+import "fmt"
+
+func f(n int) {
+  for i := 0; i < 10; i++ {
+    fmt.Println(n, ":", i)
+  }
+}
+
+func main() {
+  go f(0)
+  var input string
+  fmt.Scanln(&input)
+}
+```
+
 ---
 
 ## Sample Font end
@@ -52,11 +86,16 @@ m.Group("/books", func() {
 ---
 
 ### Front end APIs
-- [Beego](http://beego.me/){target="_blank"}
-- [Macaron](https://go-macaron.com/){target="_blank"}
-- [Web.io](http://webgo.io/){target="_blank"}
+- [Beego](http://beego.me/)
+- [Macaron](https://go-macaron.com/)
+- [Web.io](http://webgo.io/)
 - 
 ---
 
 ### Back end APIs
-- [Gorilla](http://www.gorillatoolkit.org/){target="_blank"}
+- [Gorilla](http://www.gorillatoolkit.org/)
+
+
+---
+[Go Programming Tutorial](http://www.newthinktank.com/2015/02/go-programming-tutorial/)
+[Golang-book.com](https://www.golang-book.com)
