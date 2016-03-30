@@ -4,6 +4,7 @@
 
 ## Intro to Golang
 - “Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.”
+- Made by Google
 - Functional language
 - Speed
 - Really good for stand alone command line scripts
@@ -85,7 +86,7 @@ m.Group("/books", func() {
 ```
 ---
 
-### Front end APIs
+### APIs
 - [Beego](http://beego.me/)
 - [Macaron](https://go-macaron.com/)
 - [Web.io](http://webgo.io/)
@@ -93,5 +94,7 @@ m.Group("/books", func() {
 
 ---
 ---
+## Useful links & Refrences
 - [Go Programming Tutorial](http://www.newthinktank.com/2015/02/go-programming-tutorial/)
 - [Golang-book.com](https://www.golang-book.com)
+- [Golang.org](https://golang.org/)
